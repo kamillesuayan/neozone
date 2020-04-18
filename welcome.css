@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: black;
+}
+
+@font-face {
+    font-family: "neo";
+    src: url("HelveticaNeueLTStd93BlackExtended_22550.ttf");
+}
+
+@font-face {
+    font-family: "moret";
+    src: url("FontsFree-Net-moret3.ttf");
+}
+
+.welcometo {
+	padding-top:200px;
+	text-align: center;
+	font-family: "moret";
+	font-style: normal;
+	font-weight:700;
+	font-size:30px;
+	color: white;
+}
+
+.neozone {
+	margin-top:-25px;
+	text-align: center;
+	font-family: "neo";	
+	font-style:normal;
+	font-size:50px;
+	color: #FF4949;
+}
+
+.center {
+	text-align:center;
+}
+
+button {
+	position: relative;
+	font-family: "moret";
+	font-style: normal;
+	font-size:20px;
+	color: #7C7C7C;
+	background-color:black;
+	border:none;
+	cursor: pointer;
+	margin-top:-40px;
+}
+
+button:hover {
+  color: white;
+}

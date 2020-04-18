@@ -1,0 +1,161 @@
+body {
+	background-color: black;
+}
+
+@font-face {
+    font-family: "neo";
+    src: url("HelveticaNeueLTStd93BlackExtended_22550.ttf");
+}
+
+@font-face {
+    font-family: "moret";
+    src: url("FontsFree-Net-moret3.ttf");
+}
+
+@font-face {
+	font-family: "htxt";
+	src: url("HelveticaNeueLTStdEx.otf");
+}
+
+.wrapper {
+	position:relative;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap:10px;
+	grid-auto-rows:minmax(100px,auto);
+	padding-top:10px;
+}
+
+.one {
+	grid-column: 2/3;
+	grid-row:1;
+	position:relative;
+}
+
+.invisBox {
+	width:210px;
+	height:325px;
+	margin:auto;
+	margin-top:-20px;
+}
+
+.aboutTitle {
+	color:#FFE542;
+	font-family:"moret";
+	font-size:30px;
+	margin-top:15px;
+	text-align:center;
+}
+
+.aboutDesc {
+	color:white;
+	font-family:"htxt";
+	font-size:12px;
+	text-align:center;
+
+}
+
+.groupImg {
+	width:450px;
+	height:360px;
+	opacity:20%;
+	z-index:1;
+}
+
+.members {
+	width:500px;
+	height:auto;
+	margin:auto;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	position:relative;
+	font-family: moret;
+	font-size:20px;
+	color: white;
+	text-align:center;
+	margin:auto;
+	grid-gap:10px;
+}
+
+.members:hover {
+	-webkit-text-fill-color: rgba(0,0,0,0);
+	-webkit-text-stroke-width: .7px;
+  	-webkit-text-stroke-color: black;
+}
+
+.imgFix {
+	width:100%;
+	height:auto;
+	opacity:20%;
+}
+
+.imgFix:hover {
+	opacity:100%;
+}
+
+.taeil {
+	grid-column: 1/2;
+	grid-row:1;
+	text-align:center;
+	margin:auto;
+}
+
+.johnny {
+	grid-column: 2/3;
+	grid-row:1;
+	text-align:center;
+	margin:auto;
+}
+
+.taeyong {
+	grid-column: 3;
+	grid-row:1;
+	text-align:center;
+	margin:auto;
+}
+
+.yuta {
+	grid-column: 1/2;
+	grid-row:2;
+	text-align:center;
+	margin:auto;
+}
+
+.doyoung {
+	grid-column: 2/3;
+	grid-row:2;
+	text-align:center;
+	margin:auto;
+}
+
+.jaehyun {
+	grid-column: 3;
+	grid-row:2;
+	text-align:center;
+	margin:auto;
+}
+
+.jungwoo {
+	grid-column: 1/2;
+	grid-row:3;
+	text-align:center;
+	margin:auto;
+}
+
+.mark {
+	grid-column: 2/3;
+	grid-row:3;
+	text-align:center;
+	margin:auto;
+}
+
+.haechan {
+	grid-column: 3;
+	grid-row:3;
+	text-align:center;
+	margin:auto;
+}
+
+
+
+

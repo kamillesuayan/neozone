@@ -1,0 +1,51 @@
+/* copy */
+body {
+	background-color: black;
+}
+
+@font-face {
+    font-family: "neo";
+    src: url("HelveticaNeueLTStd93BlackExtended_22550.ttf");
+}
+
+@font-face {
+    font-family: "moret";
+    src: url("FontsFree-Net-moret3.ttf");
+}
+
+.logo {
+	position:relative;
+	margin: -20px auto;
+	display:block;
+	width:300px;
+	height:214px;
+} 
+
+.nav {
+	position:relative;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+.nav li {
+	display:inline;
+	font-family:neo;
+}
+
+.nav li a {
+	display: inline-block;
+	color: #7C7C7C;
+	padding: 10px;
+	margin-top:-30px;
+	text-decoration:none;
+}
+
+li a:hover {
+	color: white;
+}
+
+.active {
+	color: #FFE542;
+}
